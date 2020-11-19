@@ -11,8 +11,7 @@
 
 ## Multimedia
 
-* [H264](multimedia/h264/README.md)
-  * [Intro](multimedia/h264/intro.md)
+* [H264](multimedia/h264.md)
 
 ## Library/Framework
 
