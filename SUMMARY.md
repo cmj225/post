@@ -2,12 +2,12 @@
 
 * [Initial page](README.md)
 
-## LANGUAGE <a id="h264"></a>
+## LANGUAGE <a id="programming-language"></a>
 
-* [C](h264/c.md)
-* [C++](h264/c++.md)
-* [Python](h264/python.md)
-* [Go](h264/go.md)
+* [C/C++](programming-language/c.md)
+* [Go](programming-language/go.md)
+* [Python](programming-language/python.md)
+* [Javascript](programming-language/javascript.md)
 
 ## Multimedia
 
@@ -15,10 +15,14 @@
 
 ## Library/Framework
 
-* [FFmpeg](library-framework/ffmpeg.md)
+* [FFmpeg](library-framework/ffmpeg/README.md)
+  * [Windows에서 FFmpeg 빌드하기](library-framework/ffmpeg/windows-ffmpeg.md)
 * [DirectShow](library-framework/directshow.md)
+* [NodeJS](library-framework/nodejs.md)
 
 ## etc
 
+* [Git](etc/git.md)
+* [CMake](etc/cmake.md)
 * [Googletest](etc/googletest.md)
 
