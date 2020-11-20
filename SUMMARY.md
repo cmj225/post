@@ -28,4 +28,5 @@
 * [Git](etc/git.md)
 * [CMake](etc/cmake.md)
 * [Googletest](etc/googletest.md)
+* [pkg-config](etc/pkg-config.md)
 
