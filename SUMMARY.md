@@ -28,6 +28,10 @@
 * [DirectShow](library-framework/directshow.md)
 * [Media Foundation](library-framework/media-foundation/README.md)
   * [Introduction](library-framework/media-foundation/introduction.md)
+  * [Media Foundation Transforms](library-framework/media-foundation/media-foundation-transforms.md)
+  * [Media Foudation Sources](library-framework/media-foundation/media-foudation-sources.md)
+  * [Media Foundation Sinks](library-framework/media-foundation/media-foundation-sinks.md)
+  * [Custom Media Sessions](library-framework/media-foundation/custom-media-sessions.md)
 * [NodeJS](library-framework/nodejs.md)
 * [OpenGL](library-framework/opengl.md)
 
