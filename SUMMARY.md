@@ -56,8 +56,7 @@
 ## etc
 
 * [Git](etc/git.md)
-* [CMake](etc/cmake/README.md)
-  * [Template](etc/cmake/template.md)
+* [CMake](etc/cmake.md)
 * [Googletest](etc/googletest.md)
 * [pkg-config](etc/pkg-config.md)
 
