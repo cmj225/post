@@ -8,7 +8,7 @@ description: >-
 
 ## Map
 
-![core structure relationship](../../../.gitbook/assets/image%20%281%29.png)
+![core structure relationship](../../../.gitbook/assets/image%20%282%29.png)
 
 ## AVFormatContext
 

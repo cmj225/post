@@ -24,6 +24,7 @@
 ## Library/Framework
 
 * [FFmpeg](library-framework/ffmpeg/README.md)
+  * [Windows에서 FFmpeg 빌드하기](library-framework/ffmpeg/windows-ffmpeg.md)
   * [FFmpeg Source 분석](library-framework/ffmpeg/ffmpeg-source/README.md)
     * [Core Structure](library-framework/ffmpeg/ffmpeg-source/core-structure.md)
     * [Decoding process](library-framework/ffmpeg/ffmpeg-source/decoding-process/README.md)
@@ -37,8 +38,8 @@
       * [avcodec\_send\_frame\(\) / avcodec\_receive\_packet\(\)](library-framework/ffmpeg/ffmpeg-source/encoding-process/avcodec_send_frame-avcodec_receive_packet.md)
       * [av\_write\_frame\(\) / av\_interleaved\_write\_frame\(\)](library-framework/ffmpeg/ffmpeg-source/encoding-process/av_write_frame-av_interleaved_write_frame.md)
       * [av\_write\_trailter\(\)](library-framework/ffmpeg/ffmpeg-source/encoding-process/av_write_trailter.md)
-  * [Windows에서 FFmpeg 빌드하기](library-framework/ffmpeg/windows-ffmpeg.md)
-* [DirectShow](library-framework/directshow.md)
+* [DirectShow](library-framework/directshow/README.md)
+  * [Introduction](library-framework/directshow/introduction.md)
 * [Media Foundation](library-framework/media-foundation/README.md)
   * [Introduction](library-framework/media-foundation/introduction.md)
   * [Media Foundation Transforms](library-framework/media-foundation/media-foundation-transforms.md)

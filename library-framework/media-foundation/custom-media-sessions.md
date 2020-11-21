@@ -14,7 +14,7 @@
   * data flow를 위해 MF는 media session이라는 별도의 객체를 
 * solid arrow : sample flow, dashed line : media events
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%283%29.png)
 
 ## Topology Builder
 

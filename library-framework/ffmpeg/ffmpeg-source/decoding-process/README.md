@@ -6,7 +6,7 @@ description: decoding process
 
 ## Overall Decoding Process
 
-![](../../../../.gitbook/assets/image%20%285%29.png)
+![](../../../../.gitbook/assets/image%20%289%29.png)
 
 * 미디어 파일 파싱
 * 코덱 세팅

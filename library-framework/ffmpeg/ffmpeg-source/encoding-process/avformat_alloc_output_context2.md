@@ -10,7 +10,7 @@ description: allocate an AVFormatContext for an output format
   * format\_name : 파일 컨테이너 형식, 미입력시 filename을 이용해 추정
   * filename : 출력 파일 경로 
 
-![](../../../../.gitbook/assets/image%20%283%29.png)
+![](../../../../.gitbook/assets/image%20%285%29.png)
 
 ![](../../../../.gitbook/assets/image-1-%20%283%29.png)
 
