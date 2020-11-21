@@ -49,13 +49,15 @@
   * [Media Foudation Sources](library-framework/media-foundation/media-foudation-sources.md)
   * [Media Foundation Sinks](library-framework/media-foundation/media-foundation-sinks.md)
   * [Custom Media Sessions](library-framework/media-foundation/custom-media-sessions.md)
+* [OpenGL](library-framework/opengl/README.md)
+  * [\[LeanOpenGL\]](library-framework/opengl/leanopengl.md)
 * [NodeJS](library-framework/nodejs.md)
-* [OpenGL](library-framework/opengl.md)
 
 ## etc
 
 * [Git](etc/git.md)
-* [CMake](etc/cmake.md)
+* [CMake](etc/cmake/README.md)
+  * [Template](etc/cmake/template.md)
 * [Googletest](etc/googletest.md)
 * [pkg-config](etc/pkg-config.md)
 
