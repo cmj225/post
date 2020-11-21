@@ -120,7 +120,7 @@ install(TARGETS ${PROJECT_NAME}
 )
 
 # install public header
-install(DIRECTORY ${PROJECT_NAME_DIR}/include
+install(DIRECTORY     ${PROJECT_NAME_DIR}/include
         CONFIGURATION ${CMAKE_BUILD_TYPE}
         DESTINATION   ${CMAKE_INSTALL_PREFIX}
 )
