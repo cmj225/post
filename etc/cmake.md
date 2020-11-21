@@ -88,6 +88,41 @@ add_subdirectory(tests)
 #### \[project\]/lib/CMakeLists.txt
 
 ```text
+add_library(${PROJECT_NAME} SHARED project.cpp)
 
+# private header inlcude path
+target_include_directories(${PROJECT_NAME} PUBLIC ${PROEJCT_NAME_DIR}/lib/include)
+
+# Symbol export
+if(WIN32)
+    set_target_properties(${PROEJCT_NAME}
+        PROPERTIES
+        WINDOWS_EXPORT_ALL_SYMBOLS true
+    )
+endif()
+
+# cmake splitting
+include(aaa/aaa.cmake)
+include(bbb/bbb.cmake)
+
+# add target source
+target_source(${PROJECT_NAME} PUBLIC
+    lib.cpp
+    ...
+)
+
+# install target
+install(TARGETS ${PROJECT_NAME}
+        CONFIGURATION ${CMAKE_BUILD_TYPE}
+        RUNTIME DESTINATION bin
+        LIBRART DESTINATION lib
+        ARCHIVE DESTINATION lib
+)
+
+# install public header
+install(DIRECTORY ${PROJECT_NAME_DIR}/include
+        CONFIGURATION ${CMAKE_BUILD_TYPE}
+        DESTINATION   ${CMAKE_INSTALL_PREFIX}
+)
 ```
 
