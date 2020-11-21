@@ -18,8 +18,8 @@
     * [HLS](multimedia/streaming/http-adaptive-streaming/hls.md)
     * [DASH](multimedia/streaming/http-adaptive-streaming/dash.md)
 * [H264](multimedia/h264/README.md)
-  * [\[H264\_01\] aaa](multimedia/h264/h264_01-aaa.md)
-  * [\[H264\_02\] bbb](multimedia/h264/h264_02-bbb.md)
+  * [\[H264\_01\] Q/A로 배우는 \[H264/AVC\]의 기초](multimedia/h264/h264_01-aaa.md)
+  * [\[H264\_02\] 영상 압축기술의 발전과 기초지식](multimedia/h264/h264_02-bbb.md)
 
 ## Library/Framework
 
@@ -55,8 +55,6 @@
 
 ## etc
 
-* [Git](etc/git.md)
 * [CMake](etc/cmake.md)
 * [Googletest](etc/googletest.md)
-* [pkg-config](etc/pkg-config.md)
 
