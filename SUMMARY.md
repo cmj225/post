@@ -4,19 +4,8 @@
 
 ## LANGUAGE <a id="programming-language"></a>
 
-* [C/C++](programming-language/c.md)
-* [Go](programming-language/go.md)
-* [Python](programming-language/python.md)
-* [Javascript](programming-language/javascript.md)
-
 ## Multimedia
 
-* [Streaming](multimedia/streaming/README.md)
-  * [progressive download](multimedia/streaming/progressive-download.md)
-  * [RTSP / RTMP](multimedia/streaming/rtsp-rtmp.md)
-  * [HTTP Adaptive Streaming](multimedia/streaming/http-adaptive-streaming/README.md)
-    * [HLS](multimedia/streaming/http-adaptive-streaming/hls.md)
-    * [DASH](multimedia/streaming/http-adaptive-streaming/dash.md)
 * [H.264](multimedia/h264/README.md)
   * [\[H.264/AVC 비디오 압축 표준\]](multimedia/h264/h.264-avc/README.md)
     * [\[01\] Q/A로 배우는 \[H264/AVC\]의 기초](multimedia/h264/h.264-avc/h264_01-aaa.md)
@@ -50,9 +39,6 @@
   * [Media Foudation Sources](library-framework/media-foundation/media-foudation-sources.md)
   * [Media Foundation Sinks](library-framework/media-foundation/media-foundation-sinks.md)
   * [Custom Media Sessions](library-framework/media-foundation/custom-media-sessions.md)
-* [OpenGL](library-framework/opengl/README.md)
-  * [\[LeanOpenGL\]](library-framework/opengl/leanopengl.md)
-* [NodeJS](library-framework/nodejs.md)
 
 ## etc
 

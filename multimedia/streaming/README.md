@@ -1,6 +1,0 @@
----
-description: streaming
----
-
-# Streaming
-
