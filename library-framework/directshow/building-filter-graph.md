@@ -40,5 +40,7 @@
   * DownStream의 `IMemInputPin::GetAllocatorRequirements()`로 Allocator 요구사항 요청 및 `IMemInputPin::GetAllocator()`를 이용해  Downstream에서 제공하는 Allocator를 얻어 옴
   * 요구사항 및 할당자를 확인하여 출력핀에서 사용할 수 있는 요구사항에 맞는 경우, `CBaseOutputPin::DecideBufferSize()`, `IMemInputPin::NotifyAllocator()` 등을 호출하여 Allocator를 설정하고 공지하여 버퍼협상을 마무리
   * 위 단계에서 버퍼 협상에 실패할 경우, `CBaseOutputPin::InitAllocator()`를 호출해 스스로 Allocator를 만들고, `CBaseOutputPin::DecideBufferSize()`로 자신에게 Allocator를 설정한 뒤, `IMemInputPin::NotifyAllocator()`을 호출하여 Downstream Filter의 Pin에 Allocator를 공지하여 버퍼협상 시
-  * 즉, 가능한 downstream이 원하는 버퍼의 요구사항에 맞게 Allocator를 사용하기 위한 과정을 거친 후, 불가한 경우 upstream이 제시할 수 있는 버퍼형태가 downstream에서 지원가능한지 파악하는 과정을 거쳐 buffer pool이 만들어
+  * 즉, 가능한 downstream이 원하는 버퍼의 요구사항에 맞게 Allocator를 지원할 수 있는지 확인하고, 불가한 경우 upstream이 제시할 수 있는 버퍼형태가 downstream에서 지원가능한지 파악하는 과정을 거쳐 buffer pool이 만드는 과정이 `버퍼협상` 
+
+![](../../.gitbook/assets/image%20%2827%29.png)
 
