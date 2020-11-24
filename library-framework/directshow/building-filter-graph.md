@@ -14,7 +14,7 @@
   * 널 랜더링 : 소스필터를 추가 후 필터 랜더링
   * 필터 추가 후 랜더링 : 소스필터 추가 후, 추가되어 있는 필터를 이용해 파이프라인 랜더링
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 * 소스필터 탐색 및 추가
   * 파일을 파싱할 수 있는 소스필터를 레지스트리를 탐색하여 추가
@@ -42,5 +42,5 @@
   * 위 단계에서 버퍼 협상에 실패할 경우, `CBaseOutputPin::InitAllocator()`를 호출해 스스로 Allocator를 만들고, `CBaseOutputPin::DecideBufferSize()`로 자신에게 Allocator를 설정한 뒤, `IMemInputPin::NotifyAllocator()`을 호출하여 Downstream Filter의 Pin에 Allocator를 공지하여 버퍼협상 시
   * 즉, 가능한 downstream이 원하는 버퍼의 요구사항에 맞게 Allocator를 지원할 수 있는지 확인하고, 불가한 경우 upstream이 제시할 수 있는 버퍼형태가 downstream에서 지원가능한지 파악하는 과정을 거쳐 buffer pool이 만드는 과정이 `버퍼협상` 
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 
