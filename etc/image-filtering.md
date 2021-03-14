@@ -4,9 +4,9 @@
 
 * 여러 프로그램에서 이미지 필터가 사용
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 * 그 중에서 흑백 필터, 그레이 필터, 밝기/대비 조절, 듀오톤 기능 등의 필터 구현에 대해 알아봄
 
@@ -17,7 +17,7 @@
 * 가산 혼합 \(색을 혼합할수록 색상이 밝아짐\)
 * \(for display\) 모니터 등 디스플레이 장치에 주로 사
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 ## HSB/HSV Color Space
 
@@ -32,27 +32,27 @@
   * 채도
   * 중심 원의 반지름 길이 \(0 ~ 1\)
   * 중심과 가까울수록 채도는 0, 멀수록 1에 가까움
-  * ![](../.gitbook/assets/image%20%2852%29.png) 
+  * ![](../.gitbook/assets/image%20%2859%29.png) 
 * HSB 컬러와 RGB 컬러는 1:1 대응하지 않음
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2867%29.png)
 
 ## Image Histogram
 
 * 이미지를 구성하는 픽셀의 RGB Level을 가로축으로, 픽셀수를 세로축으로 나타낸 그래프
 * 이후 Level 조정과 관련해 이해를 도와줄 좋은 도
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 ## Basic Image Filter
 
 * color correction matrix
 
-![](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
 * 색분리
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 ## Hue-Saturation Filter
 
@@ -66,19 +66,19 @@
 * Output Level 조정
 * 원본 이미지
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 * Input Level 조정
   * scale을 조정하면, 주황색 영역의 모든 픽셀들의 값이 255로 고정되고, 이는 가운데 그림의 푸르게 표시된 부분들
   * 그 외 영역들도 stretching이 이뤄져 전체적으로 이미지가 밝아
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
 * Output Level 조정
   * scale이 shirink되면서 다시 pixel의 level이 매핑되어 밝기나 대비가 변함
   * 이를 심화시키면 scale이 뒤집혀 반전 효과가 일어
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
 ## Brightness-Contrast Filter
 
@@ -88,22 +88,22 @@
 
 * 위의 Brightness-Contrast Filter를 이용해 채도를 낮춤
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2874%29.png)
 
 ## Black-White filter
 
 * 채도를 낮추고 대비를 올
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 ## Duotone filter
 
 * 채도를 낮추고, Color level을 조정
 * 무채색화 + 특정 color level 조정
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](../.gitbook/assets/image%20%2869%29.png)
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
 
 

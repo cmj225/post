@@ -17,14 +17,14 @@
 * 각 필터의 특성을 반영해 버퍼의 크기 및 개수 조정
 * 버퍼는 reference count로 관리되며, 사용이 끝난 버퍼는 할당자로 회수 
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2861%29.png)
 
 * 버퍼의 공유 \(buffer share\)
 
   * 멀티미디어 데이터의 특성 상 불필요한 복사를 줄여 성능의 향상을 꾀할 수 있음
   * Inplace 변환 필터\(추가적인 버퍼가 필요 없는 버퍼\)의 경우 재협상 과정을 통해 버퍼를 공
 
-![](../../.gitbook/assets/image%20%2867%29.png)
+![](../../.gitbook/assets/image%20%2875%29.png)
 
 ## 
 

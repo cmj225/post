@@ -16,7 +16,7 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
 
 * 멀티미디어 데이터를 처리하는 일련의 필터들의 집
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 ## Data Flow Model
 
@@ -24,33 +24,33 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
 * Push Model
   * Upstream Push, Limited Buffer, Pipeline Full
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 * Pull Model
   * Downstream Pull, Supplier's Availability, Pipeline Empty
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 * History
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2858%29.png)
 
 * DirectShow
   * filter, pin, filter graph, filter graph manager
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 * GStreamer
   * element, pad, pipeline
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 ## Push to Partial Pull Model
 
 * Appearance of Seekable Media Container
   * Pull Media와 [**Seekable Container**](https://app.gitbook.com/@cheonminjae225/s/post/~/drafts/-MVjsa2aS9FREL5hLCBv/etc/media-container)의 등장
 
-![](../.gitbook/assets/image%20%2868%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
 * DirectShow: Push \(Partial-Pull\) Model
 
@@ -60,13 +60,13 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
     * Byte Reader의 기능은 대부분 중복
     * 기존의 Source를 Source와 Parser로 분리하고 Parser만 추가 구현 
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 * 다양한 컨테이너 지원을 위한 파서 분리의 문제
   * Seekable Contianer의 경우 파싱 기능이 없는 Upstream 필터가 일방적으로 Push하는 형식은 Seekable Container의 장점을 효과적으로 이용할 수 없었음
   * 아래와 같은 경우, moov를 얻기 위해 처음부터 끝까지 읽어야 컨테이너 파싱 가능
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2864%29.png)
 
 * Partial-Pull Model
   * DirectShow에서는 Seekable Container를 효율적으로 사용하기 위해 Partial-Pull Model 고안
@@ -75,9 +75,9 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
   * 하지만 파이프라인 일부의 스케쥴링 정책이 달라져 복잡해지는 단점이 있음
   * Benefit &gt; Complexity
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2871%29.png)
 
 ## Pull Model
 
@@ -106,7 +106,7 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
   * selective data flow control
   * pad의 activation 단계에서 push/pull 선택
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 ## Chromium: Pull Model
 
@@ -125,11 +125,11 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
   * 증가된 연산을 보장된 시간 안에 감당할 수 없음
 * Synchronous Pipeline
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 * Performance Issue
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 * Pull with Buffering
   * 데이터 플로우 모델은 Pull Model
@@ -137,11 +137,11 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
   * Asynchronous하게 버퍼링을 수행하며 동작
   * Windows의 경우 Windows7부터 Async MFT 지원
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 ## Summery
 
 * Push Model과 Pull Model이 혼용된 하이브리드 형태로 사용되고 있음
 
-![](../.gitbook/assets/image%20%2863%29.png)
+![](../.gitbook/assets/image%20%2870%29.png)
 
