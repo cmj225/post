@@ -12,9 +12,8 @@
 ## Multimedia
 
 * [Codec](multimedia/h264/README.md)
-  * [\[H.264/AVC 비디오 압축 표준\]](multimedia/h264/h.264-avc.md)
-  * [\[01\] Q/A로 배우는 \[H264/AVC\]의 기초](multimedia/h264/h264_01-aaa.md)
   * [영상 압축기술의 발전과 기초지식](multimedia/h264/h264_02-bbb.md)
+  * [\[01\] Q/A로 배우는 \[H264/AVC\]의 기초](multimedia/h264/h264_01-aaa.md)
   * [예측과 양자화](multimedia/h264/5.md)
 
 ## Library/Framework
