@@ -57,4 +57,5 @@
 * [Media Container](etc/media-container/README.md)
   * [MPEG-4 Container](etc/media-container/mpeg-4-container.md)
 * [Multimedia Framework Data Flow Model](etc/multimedia-framework-data-flow-model.md)
+* [Image Filtering](etc/image-filtering.md)
 
