@@ -12,7 +12,7 @@
 * box들이 적재되어 있는 구조
 * box 정보 및 box data를 기반으로 Random Access 가능
 
-![](../../.gitbook/assets/image%20%2864%29.png)
+![](../../.gitbook/assets/image%20%2865%29.png)
 
 ## MPEG-4 Container box table
 

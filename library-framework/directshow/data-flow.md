@@ -9,3 +9,22 @@
 * `Push/Pull Model에 대한 정리는 다른 doc을 통해 자세히 정해둠`
 * ![](../../.gitbook/assets/image%20%2826%29.png)
 
+## Allocator
+
+* DirectShow의 버퍼 관리자
+* 각 핀들은 Allocator를 통해 필요한 버퍼를 요청하여 버퍼를 얻는다\(sync-blocking\)
+* 미리 버퍼를 할당해두고 요청 시 포인터만 전달해 처리 속도 향상
+* 각 필터의 특성을 반영해 버퍼의 크기 및 개수 조정
+* 버퍼는 reference count로 관리되며, 사용이 끝난 버퍼는 할당자로 회수 
+
+![](../../.gitbook/assets/image%20%2854%29.png)
+
+* 버퍼의 공유 \(buffer share\)
+
+  * 멀티미디어 데이터의 특성 상 불필요한 복사를 줄여 성능의 향상을 꾀할 수 있음
+  * Inplace 변환 필터\(추가적인 버퍼가 필요 없는 버퍼\)의 경우 재협상 과정을 통해 버퍼를 공
+
+![](../../.gitbook/assets/image%20%2867%29.png)
+
+## 
+

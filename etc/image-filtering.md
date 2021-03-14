@@ -4,7 +4,7 @@
 
 * 여러 프로그램에서 이미지 필터가 사용
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 ![](../.gitbook/assets/image%20%2836%29.png)
 
@@ -35,7 +35,7 @@
   * ![](../.gitbook/assets/image%20%2852%29.png) 
 * HSB 컬러와 RGB 컬러는 1:1 대응하지 않음
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 ## Image Histogram
 
@@ -48,7 +48,7 @@
 
 * color correction matrix
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 * 색분리
 
@@ -78,7 +78,7 @@
   * scale이 shirink되면서 다시 pixel의 level이 매핑되어 밝기나 대비가 변함
   * 이를 심화시키면 scale이 뒤집혀 반전 효과가 일어
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2859%29.png)
 
 ## Brightness-Contrast Filter
 
@@ -88,7 +88,7 @@
 
 * 위의 Brightness-Contrast Filter를 이용해 채도를 낮춤
 
-![](../.gitbook/assets/image%20%2865%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
 ## Black-White filter
 
@@ -101,7 +101,7 @@
 * 채도를 낮추고, Color level을 조정
 * 무채색화 + 특정 color level 조정
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
 ![](../.gitbook/assets/image%20%2844%29.png)
 

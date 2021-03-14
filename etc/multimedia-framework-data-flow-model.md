@@ -50,7 +50,7 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
 * Appearance of Seekable Media Container
   * Pull Media와 [**Seekable Container**](https://app.gitbook.com/@cheonminjae225/s/post/~/drafts/-MVjsa2aS9FREL5hLCBv/etc/media-container)의 등장
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 * DirectShow: Push \(Partial-Pull\) Model
 
@@ -66,7 +66,7 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
   * Seekable Contianer의 경우 파싱 기능이 없는 Upstream 필터가 일방적으로 Push하는 형식은 Seekable Container의 장점을 효과적으로 이용할 수 없었음
   * 아래와 같은 경우, moov를 얻기 위해 처음부터 끝까지 읽어야 컨테이너 파싱 가능
 
-![](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2857%29.png)
 
 * Partial-Pull Model
   * DirectShow에서는 Seekable Container를 효율적으로 사용하기 위해 Partial-Pull Model 고안
@@ -77,7 +77,7 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
 
 ![](../.gitbook/assets/image%20%2849%29.png)
 
-![](../.gitbook/assets/image%20%2863%29.png)
+![](../.gitbook/assets/image%20%2864%29.png)
 
 ## Pull Model
 
@@ -106,7 +106,7 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
   * selective data flow control
   * pad의 activation 단계에서 push/pull 선택
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2858%29.png)
 
 ## Chromium: Pull Model
 
@@ -129,7 +129,7 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
 
 * Performance Issue
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2861%29.png)
 
 * Pull with Buffering
   * 데이터 플로우 모델은 Pull Model
@@ -143,5 +143,5 @@ description: 다양한 멀티미디어 프레임워크의 데이터 플로우 �
 
 * Push Model과 Pull Model이 혼용된 하이브리드 형태로 사용되고 있음
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
