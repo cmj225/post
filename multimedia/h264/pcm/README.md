@@ -20,16 +20,21 @@ description: Pulse-code modulation
 
 ### Audio Sampling
 
-analog -&gt; audio sample
-
+* 오디오 아날로그 신호를 디지털 신호로 변환
+* 오디오 신호는 그 진폭에 따라 integer나 float에 맞는 값으로 양자화 됨
 * `[샤논(Shannon)의 샘플링 원리], [샘플링 정리], [나이퀴스트(Nyquist)의 정리]`
   * 아날로그 신호를 디지털화하는 경우, 2배 이상의 주파수로 샘플링하면, 원래의 연속적인 아날로그 신호로 완전히 복원하는 것이 가능하다
 
+![](../../../.gitbook/assets/image%20%2879%29.png)
+
 ### 
 
-### Video Sampling 
+### Pixel Sampling
 
-analog -&gt; RGB
+* 화소 아날로그 신호를  디지털 신호로 변환
+* 화소의 데이터는 RGB Color Space에 맞는 level로 양자화 됨.
+
+![](../../../.gitbook/assets/image%20%2880%29.png)
 
 ### 
 
