@@ -1,6 +1,6 @@
 # Reference
 
-### 공식 홈페이
+### 공식 홈페이지 
 
 {% embed url="https://golang.org/" %}
 
