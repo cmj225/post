@@ -2,7 +2,7 @@
 description: media foundation introduction
 ---
 
-# Introduction
+# Intro
 
 ## Reference
 

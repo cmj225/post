@@ -1,4 +1,4 @@
-# Introduction
+# Intro
 
 ## DirectShow\(DS, DShow, Quartz\)
 
