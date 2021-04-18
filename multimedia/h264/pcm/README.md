@@ -29,14 +29,23 @@ description: Pulse-code modulation
 
 ### 
 
-### Pixel Sampling
+### Image Sampling
 
 * 화소 아날로그 신호를  디지털 신호로 변환
 * 화소의 데이터는 RGB Color Space에 맞는 level로 양자화 됨.
+* 오디오와 마찬가지로 색을 표현하는데 많은 bit를 할당할 수록 세밀한 색상을 표현할 수 있음. \(RGB 색공간의 domain coverage가 달라짐\)
 
 ![](../../../.gitbook/assets/image%20%2880%29.png)
 
-### 
+#### RGB Color Space
+
+* RED, GREEN, BLUE
+* 색의 삼원색을 이용해 다른 색을 표현하는 방법
+* 가산 혼합 \(색을 혼합할수록 색상이 밝아짐\)
+
+![](../../../.gitbook/assets/image%20%2851%29.png)
+
+## 
 
 ### Reference
 
