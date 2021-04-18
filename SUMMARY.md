@@ -27,7 +27,6 @@
   * [H.265](multimedia/h264/h.265.md)
   * [영상 압축기술의 발전과 기초지식](multimedia/h264/h264_02-bbb.md)
   * [\[01\] Q/A로 배우는 \[H264/AVC\]의 기초](multimedia/h264/h264_01-aaa.md)
-  * [예측과 양자화](multimedia/h264/5.md)
 
 ## Library/Framework
 
