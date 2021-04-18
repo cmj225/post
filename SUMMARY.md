@@ -78,7 +78,8 @@
 
 * [NodeJS](backend/nodejs/README.md)
   * [Express](backend/nodejs/express.md)
-* [gRPC](backend/grpc.md)
+* [gRPC](backend/grpc/README.md)
+  * [Intro](backend/grpc/intro.md)
 * [RabbitMQ](backend/rabbitmq.md)
 * [Kafka](backend/kafka/README.md)
   * [Intro](backend/kafka/intro.md)
