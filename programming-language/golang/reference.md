@@ -12,6 +12,8 @@
 
 {% embed url="https://www.gopl.io/" %}
 
+{% embed url="https://digital.kyobobook.co.kr/digital/ebook/ebookDetail.ink?selectedLargeCategory=001&barcode=4801197149802" %}
+
 
 
 ### Youtube
