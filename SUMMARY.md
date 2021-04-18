@@ -9,7 +9,6 @@
 * [Golang](programming-language/golang/README.md)
   * [Reference](programming-language/golang/reference.md)
 * [Javascript](programming-language/javascript/README.md)
-  * [Untitled](programming-language/javascript/untitled.md)
   * [Reference](programming-language/javascript/reference.md)
   * [OLDER](programming-language/javascript/older.md)
   * [ES6](programming-language/javascript/es6.md)
