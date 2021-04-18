@@ -2,13 +2,6 @@
 
 ## NodeJS
 
-* Chromium의 [**V8**](https://v8.dev/) 엔진을 기반으로 만들어짐
-  * Node.js has emerged to be one of the most popular web development frameworks in the last decade.
-  * **can write Javascript code outside the browser**
-* non-blocking, lightweight, fast, robust and scalable framework
-* 비동기\(Asynchronous\) - 이벤트 주도\(Event-driven\) JavaScript Runtime
-* Non-Blocking I/O
-
 ### Core Concepts
 
 Node.js is an **open-source and cross-platform JavaScript runtime environment.**                                                         `-> Node.js의 정의`
@@ -20,17 +13,20 @@ A Node.js app **runs in a single process, without creating a new thread** for ev
 
 Node.js has a **unique advantage because millions of frontend developers that write JavaScript for the browser are now able to write the server-side code in addition to the client-side code without the need to learn a completely different language**.                                                                                                                                          `->  Node.js가 부흥한 이유`
 
-**In Node.js the new ECMAScript standards can be used without problems,** as you don't have to wait for all your users to update their browsers - you are **in charge of deciding which ECMAScript version to use by changing the Node.js version,** and you can also enable specific experimental features by running Node.js with flags. =&gt; V8 version 동기화
+**In Node.js the new ECMAScript standards can be used without problems,** as you don't have to wait for all your users to update their browsers - you are **in charge of deciding which ECMAScript version to use by changing the Node.js version,** and you can also enable specific experimental features by running Node.js with flags.                                                                                                                                                                                   `-> V8 version 동기화와  ECMAScript`
 
+Node.js **has a fantastic standard library**. Also, Node.js **has vast number of libraries**. [**npm**](https://www.npmjs.com/) with its simple structure helped the ecosystem of Node.js proliferate, and now the npm registry **hosts over 1,000,000 open source packages** you can freely use. Node.js is a low-level platform. In order to **make things easy and exciting for developers, thousands of libraries were built upon Node.js by the community.**                               `-> 유용한 standard library를 지원하며, 다양한 오픈소스 패키지나 프레임워크들이 존재`
 
+### 
 
+### Summury
 
-
-
-
-
-
-
+* Chromium의 [**V8**](https://v8.dev/) 엔진을 기반으로 만들어짐
+  * **can write Javascript code outside the browser**
+* **non-blocking, lightweight, fast, robust and scalable framework**
+* 비동기\(Asynchronous\)
+* 이벤트 주도\(Event-driven\)
+* Non-Blocking I/O
 
 ## Architecture
 
