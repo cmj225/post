@@ -30,13 +30,11 @@
   * [Motion Compensate](multimedia/h264/motion-compensate.md)
   * [Vector Quantization](multimedia/h264/vector-quantization.md)
   * [DCT](multimedia/h264/dct.md)
-  * [Huffman Coding](multimedia/h264/huffman-coding.md)
-  * [LZW Coding](multimedia/h264/lzw-coding.md)
   * [CAVLC](multimedia/h264/cavlc.md)
   * [CABAC](multimedia/h264/cabac.md)
   * [JPEG](multimedia/h264/jpeg.md)
-  * [H.264](multimedia/h264/h.264.md)
-  * [H.265](multimedia/h264/h.265.md)
+  * [H.264/AVC](multimedia/h264/h.264.md)
+  * [H.265/HEVC](multimedia/h264/h.265.md)
 
 ## Library/Framework
 
