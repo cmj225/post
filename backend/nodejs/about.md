@@ -37,6 +37,8 @@ Node.js **has a fantastic standard library**. Also, Node.js **has vast number of
 
 ### Reference
 
+{% embed url="https://nodejs.org/ko/" %}
+
 {% embed url="https://nodejs.org/en/docs/guides/" %}
 
 {% embed url="https://www.simplilearn.com/understanding-node-js-architecture-article" %}

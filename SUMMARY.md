@@ -38,6 +38,8 @@
       * [av\_write\_frame\(\) / av\_interleaved\_write\_frame\(\)](library-framework/ffmpeg/ffmpeg-source/encoding-process/av_write_frame-av_interleaved_write_frame.md)
       * [av\_write\_trailter\(\)](library-framework/ffmpeg/ffmpeg-source/encoding-process/av_write_trailter.md)
   * [Windows에서 FFmpeg 빌드하기](library-framework/ffmpeg/windows-ffmpeg.md)
+* [GStreamer](library-framework/gstreamer/README.md)
+  * [Intro](library-framework/gstreamer/intro.md)
 * [DirectShow](library-framework/directshow/README.md)
   * [Intro](library-framework/directshow/introduction.md)
   * [Building Filter Graph](library-framework/directshow/building-filter-graph.md)
