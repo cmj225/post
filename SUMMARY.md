@@ -2,7 +2,7 @@
 
 * [Initial page](README.md)
 
-## LANGUAGE <a id="programming-language"></a>
+## Language <a id="programming-language"></a>
 
 * [C/C++](programming-language/c-c++/README.md)
   * [Reference](programming-language/c-c++/reference.md)
