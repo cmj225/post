@@ -21,10 +21,9 @@ Node.js **has a fantastic standard library**. Also, Node.js **has vast number of
 
 * Chromium의 [**V8**](https://v8.dev/) 엔진을 기반으로 만들어짐
   * **can write Javascript code outside the browser**
-* **non-blocking, lightweight, fast, robust and scalable framework**
 * 비동기\(Asynchronous\)
 * 이벤트 주도\(Event-driven\)
-* Non-Blocking I/O
+* 논블락킹 I/O\(Non-Blocking I/O\)
 
 ## Architecture
 
