@@ -10,6 +10,8 @@ description: Pulse-code modulation
 
 
 
+## DPCM \(Differential pulse-code modulation\)
+
 [**DPCM**](https://en.wikipedia.org/wiki/Differential_pulse-code_modulation)이란 ...
 
 
