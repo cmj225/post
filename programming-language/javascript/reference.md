@@ -1,6 +1,4 @@
-# Javascript
-
-
+# Reference
 
 {% embed url="https://ko.javascript.info/" %}
 

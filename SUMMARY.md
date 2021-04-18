@@ -7,6 +7,7 @@
 * [C/C++](programming-language/c-c++/README.md)
   * [Reference](programming-language/c-c++/reference.md)
 * [Javascript](programming-language/javascript/README.md)
+  * [Reference](programming-language/javascript/reference.md)
   * [OLDER](programming-language/javascript/older.md)
   * [ES6](programming-language/javascript/es6.md)
 
