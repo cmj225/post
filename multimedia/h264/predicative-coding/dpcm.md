@@ -26,8 +26,6 @@
 
 * 일반적으로 이미 부호화된 주변의 화소\(좌측, 상단, zig-zag scanning\)를 가중평균하여 현재 부호화하려는  화소를 예측하는 방식을  사용 `(좌측 화소값 * 0.5 + 상단 화소값 * 0.5)`  
 
-
-
 ## Reference
 
 {% embed url="http://www.yes24.com/Product/Goods/2532229" %}
