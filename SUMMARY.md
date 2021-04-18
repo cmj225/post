@@ -4,7 +4,7 @@
 
 ## Language <a id="programming-language"></a>
 
-* [C/C++](programming-language/c-c++/README.md)
+* [C++](programming-language/c-c++/README.md)
   * [Reference](programming-language/c-c++/reference.md)
 * [Golang](programming-language/golang/README.md)
   * [Reference](programming-language/golang/reference.md)
