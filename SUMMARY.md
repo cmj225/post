@@ -21,11 +21,15 @@
   * [.mp4](multimedia/container/.mp4.md)
   * [.cmaf](multimedia/container/.cmaf.md)
 * [Codec](multimedia/h264/README.md)
+  * [영상 압축기술의 발전과 기초지식](multimedia/h264/h264_02-bbb.md)
   * [PCM](multimedia/h264/pcm.md)
+  * [DPCM](multimedia/h264/dpcm.md)
+  * [Huffman Coding](multimedia/h264/huffman-coding.md)
+  * [CAVLC](multimedia/h264/cavlc.md)
+  * [CABAC](multimedia/h264/cabac.md)
   * [JPEG](multimedia/h264/jpeg.md)
   * [H.264](multimedia/h264/h.264.md)
   * [H.265](multimedia/h264/h.265.md)
-  * [영상 압축기술의 발전과 기초지식](multimedia/h264/h264_02-bbb.md)
   * [\[01\] Q/A로 배우는 \[H264/AVC\]의 기초](multimedia/h264/h264_01-aaa.md)
 
 ## Library/Framework
