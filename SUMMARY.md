@@ -78,6 +78,12 @@
 
 * [NodeJS](backend/nodejs/README.md)
   * [Express](backend/nodejs/express.md)
+* [gRPC](backend/grpc.md)
+* [Kafka](backend/kafka/README.md)
+  * [Intro](backend/kafka/intro.md)
+  * [CppKafka](backend/kafka/cppkafka.md)
+* [RabbitMQ](backend/rabbitmq.md)
+* [Swagger](backend/swagger.md)
 
 ## front-end
 
