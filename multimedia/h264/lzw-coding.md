@@ -1,0 +1,6 @@
+# LZW Coding
+
+GIF
+
+
+

@@ -16,25 +16,27 @@
 ## Multimedia
 
 * [Container](multimedia/container/README.md)
+  * [MPEG-4 Container](multimedia/container/mpeg-4-container.md)
   * [.ts](multimedia/container/.ts.md)
   * [.fmp4](multimedia/container/.fmp4.md)
   * [.mp4](multimedia/container/.mp4.md)
   * [.cmaf](multimedia/container/.cmaf.md)
 * [Codec](multimedia/h264/README.md)
-  * [영상 압축기술](multimedia/h264/h264_02-bbb.md)
+  * [Video/Audio Compression](multimedia/h264/h264_02-bbb.md)
   * [PCM](multimedia/h264/pcm/README.md)
     * [Chroma Subsampling](multimedia/h264/pcm/chroma-subsampling.md)
   * [Predicative Coding](multimedia/h264/predicative-coding/README.md)
     * [DPCM](multimedia/h264/predicative-coding/dpcm.md)
   * [Motion Compensate](multimedia/h264/motion-compensate.md)
+  * [Vector Quantization](multimedia/h264/vector-quantization.md)
   * [DCT](multimedia/h264/dct.md)
   * [Huffman Coding](multimedia/h264/huffman-coding.md)
+  * [LZW Coding](multimedia/h264/lzw-coding.md)
   * [CAVLC](multimedia/h264/cavlc.md)
   * [CABAC](multimedia/h264/cabac.md)
   * [JPEG](multimedia/h264/jpeg.md)
   * [H.264](multimedia/h264/h.264.md)
   * [H.265](multimedia/h264/h.265.md)
-  * [\[01\] Q/A로 배우는 \[H264/AVC\]의 기초](multimedia/h264/h264_01-aaa.md)
 
 ## Library/Framework
 
@@ -67,6 +69,7 @@
   * [Media Foudation Sources](library-framework/media-foundation/media-foudation-sources.md)
   * [Media Foundation Sinks](library-framework/media-foundation/media-foundation-sinks.md)
   * [Custom Media Sessions](library-framework/media-foundation/custom-media-sessions.md)
+* [Multimedia Framework Data Flow Model](library-framework/multimedia-framework-data-flow-model.md)
 
 ## BACKEND
 
@@ -82,8 +85,5 @@
 
 * [CMake](etc/cmake.md)
 * [Googletest](etc/googletest.md)
-* [Media Container](etc/media-container/README.md)
-  * [MPEG-4 Container](etc/media-container/mpeg-4-container.md)
-* [Multimedia Framework Data Flow Model](etc/multimedia-framework-data-flow-model.md)
 * [Image Filtering](etc/image-filtering.md)
 
