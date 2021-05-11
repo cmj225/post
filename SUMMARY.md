@@ -40,6 +40,7 @@
   * [RTMP](multimedia/streaming-protocols/rtmp.md)
   * [HLS](multimedia/streaming-protocols/hls.md)
   * [DASH](multimedia/streaming-protocols/dash.md)
+* [EME](multimedia/eme.md)
 
 ## Library/Framework
 
