@@ -41,6 +41,7 @@
   * [HLS](multimedia/streaming-protocols/hls.md)
   * [DASH](multimedia/streaming-protocols/dash.md)
 * [EME](multimedia/eme.md)
+* [WebRTC](multimedia/webrtc.md)
 * [WebTransport](multimedia/webtransport.md)
 
 ## Library/Framework
