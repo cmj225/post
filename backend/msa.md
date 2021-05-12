@@ -4,6 +4,10 @@
 
 {% embed url="https://microservices.io/" %}
 
+{% embed url="https://www.mattstine.com/microservices/" %}
+
+
+
 {% embed url="https://dzone.com/articles/deploying-microservices-spring-cloud-vs-kubernetes" %}
 
 {% embed url="https://12factor.net/" %}
