@@ -2,9 +2,11 @@
 
 * 읽을거리
 
+{% embed url="https://microservices.io/" %}
+
 {% embed url="https://dzone.com/articles/deploying-microservices-spring-cloud-vs-kubernetes" %}
 
-
+{% embed url="https://12factor.net/" %}
 
 {% embed url="https://alwayspr.tistory.com/19" %}
 
