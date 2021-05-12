@@ -93,6 +93,7 @@
 
 * [Browser](front-end/browser/README.md)
   * [MSE](front-end/browser/mse.md)
+* [HTML5Player](front-end/html5player.md)
 * [React](front-end/untitled/README.md)
   * [Create React App](front-end/untitled/create-react-app.md)
 
