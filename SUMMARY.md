@@ -79,6 +79,7 @@
 
 ## BACKEND
 
+* [MSA](backend/msa.md)
 * [NodeJS](backend/nodejs/README.md)
   * [Express](backend/nodejs/express.md)
 * [gRPC](backend/grpc/README.md)
