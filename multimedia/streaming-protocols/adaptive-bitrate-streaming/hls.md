@@ -18,13 +18,26 @@ Apple에서 LIVE, on-demand 오디오/비디오 전송을 위해 내놓은 프�
 * 비디오 코덱 : h264
 * 오디오 코덱 : aac
 
+
+
 ### HLS 서비스의 구조
 
 주요 컨셉은 영상을 Stream segmenter를 이용해 작은 단위로 분리하고, 이 파일들의 목록을 만들어 웹 서버를 통해 배포하는 것이다.
 
-![](../../../.gitbook/assets/image%20%2885%29.png)
+![components of an HTTP Live Stream](../../../.gitbook/assets/image%20%2885%29.png)
 
 
+
+아래 사항들이 주요 기능인데 각각을 어떻게 지원하는지 정
+
+HLS supports the following:
+
+* Live broadcasts and prerecorded content \(video on demand, or _VOD_\)
+* Multiple alternate streams at different bit rates
+* Intelligent switching of streams in response to network bandwidth changes
+* Media encryption and user authentication
+
+The following figure shows the components of an HTTP Live Stream.
 
 
 
