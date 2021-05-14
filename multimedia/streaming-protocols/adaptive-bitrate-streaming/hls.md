@@ -20,6 +20,8 @@ Apple에서 LIVE, on-demand 오디오/비디오 전송을 위해 내놓은 프�
 
 ### HLS 서비스의 구조
 
+주요 컨셉은 영상을 Stream segmenter를 이용해 작은 단위로 분리하고, 이 파일들의 목록을 만들어 웹 서버를 통해 배포하는 것이다.
+
 ![](../../../.gitbook/assets/image%20%2885%29.png)
 
 
