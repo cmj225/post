@@ -6,10 +6,7 @@
 
 * [C++](programming-language/c-c++.md)
 * [Golang](programming-language/golang.md)
-* [Javascript](programming-language/javascript/README.md)
-  * [Reference](programming-language/javascript/reference.md)
-  * [OLDER](programming-language/javascript/older.md)
-  * [ES6](programming-language/javascript/es6.md)
+* [Javascript](programming-language/javascript.md)
 
 ## Multimedia
 
