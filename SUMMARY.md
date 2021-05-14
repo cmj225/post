@@ -34,6 +34,7 @@
   * [JPEG](multimedia/h264/jpeg.md)
   * [H.264/AVC](multimedia/h264/h.264.md)
   * [H.265/HEVC](multimedia/h264/h.265.md)
+* [Media Server](multimedia/media-server.md)
 * [Streaming Protocols](multimedia/streaming-protocols/README.md)
   * [Video Streaming](multimedia/streaming-protocols/video-streaming.md)
   * [RTSP](multimedia/streaming-protocols/rtsp.md)
