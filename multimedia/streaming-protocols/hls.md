@@ -17,6 +17,8 @@ Apple에서 개발한 HTTP 기반 스트리밍 프로토콜
 
 
 
+
+
 {% embed url="https://developer.apple.com/streaming/" %}
 
 

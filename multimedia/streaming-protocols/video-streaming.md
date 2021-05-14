@@ -13,7 +13,7 @@
 * Pseudo Streaming
 * RTSP
 * RTMP
-* Adaptive Bitrate Streaming \(Adaptive HTTP Streaming\)
+* [Adaptive Bitrate Streaming](https://en.wikipedia.org/wiki/Adaptive_bitrate_streaming) \(Adaptive HTTP Streaming\)
   * **MPEG-DASH**
   * Adobe HTTP Dynamic Streaming
   * **Apple HTTP Live Streaming**
